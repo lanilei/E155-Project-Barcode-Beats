@@ -62,3 +62,4 @@ module sync_tb;
     end
 
 endmodule
+
