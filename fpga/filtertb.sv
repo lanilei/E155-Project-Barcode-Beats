@@ -54,7 +54,8 @@ module filtertb();
 	assign expected[10] = 32'b00000000000000000000000000100000; //  32 */
 	
 initial begin 
-	signal = 0; sample = 0; reset = 0; #5; reset = 1; sample = 1; #5;
+	signal = 0; sample = 0; reset = 0; #5; reset = 1; sample = 1; #5;
+
 	for(int i = 0; i < 8; i++) begin
 		signal = signaltest[i];
 		@(posedge clk)
