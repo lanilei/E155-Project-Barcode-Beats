@@ -18,4 +18,5 @@ module filter_core(input logic clk,
 	// call decimated FIR filter
 	fir filter(clk, reset, sample, barcode, done, filtered);
 
+
 endmodule
