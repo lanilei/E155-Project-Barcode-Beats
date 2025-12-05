@@ -20,4 +20,5 @@ module sync (input  logic  clk,
     end
   end
 
+
 endmodule
